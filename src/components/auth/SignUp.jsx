@@ -20,7 +20,7 @@ const SignUp = () => {
             <h1>Create an account</h1>
             <input type="email" placeholder="enter your email"value={email} onChange={(e)=>setEmail(e.target.value)}></input>
             <input type="password" placeholder="enter your password"value={password} onChange={(e)=>setPassword(e.target.value)}></input>
-            <button type="submit">Sign Up</button>
+            <button type="submit">Sign Up now</button>
         </form>
     </div>
   )
